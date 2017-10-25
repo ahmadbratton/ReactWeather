@@ -6,6 +6,11 @@ var Weather = require("app/components/Weather.jsx");
 var About = require("app/components/about.jsx");
 var Examples = require("app/components/Examples.jsx");
 
+
+//Load foundation
+require("style!css!foundation-sites/dist/foundation.min.css")
+$(document).foundation();
+
 ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={main}>
