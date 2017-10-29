@@ -16,13 +16,15 @@ onFormSubmit: function(e){
   render: function () {
     return(
       <div>
+
         <form onSubmit={this.onFormSubmit} >
-          <input type="type" ref="location" />
-          <button>get weather</button>
+          <input type="text" ref="location"/>
+          <button className="button expanded hollow ">Get Weather</button>
         </form>
+
       </div>
-    )
+    );
   }
-})
+});
 
 module.exports = WeatherForm;
