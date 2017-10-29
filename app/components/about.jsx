@@ -5,7 +5,7 @@ var React = require("react");
 var about = (props) => {
   return(
     <div>
-      <h1 className="text-center" > About </h1>
+      <h1 className="text-center page-title" > About </h1>
       <p> weather that built while learning react </p>
       <p>here are some of the tools I used</p>
       <ul>
@@ -14,7 +14,7 @@ var about = (props) => {
         </li>
         <li>
           <a href="http://openweathermap.org"> open weather map </a> I used open weather
-          map to search for city name 
+          map to search for city name
         </li>
       </ul>
     </div>

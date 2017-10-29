@@ -18,7 +18,7 @@ onFormSubmit: function(e){
       <div>
 
         <form onSubmit={this.onFormSubmit} >
-          <input type="text" ref="location"/>
+          <input type="search" placeholder="search weather by city" ref="location"/>
           <button className="button expanded hollow ">Get Weather</button>
         </form>
 
